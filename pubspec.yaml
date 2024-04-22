@@ -1,0 +1,35 @@
+name: qrgenerator2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  csv: ^5.1.1
+  file_picker: ^6.1.1
+  flutter:
+    sdk: flutter
+  flutter_async_autocomplete: ^0.1.1
+  flutter_typeahead: ^5.2.0
+  http: ^1.2.1
+  image_gallery_saver: ^2.0.3
+  intl: ^0.18.1
+  material_symbols_icons: ^4.2719.3
+  open_file: ^3.3.2
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  super_clipboard: ^0.8.5
+  syncfusion_flutter_pdf: ^24.2.6
+  to_csv: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/123logo.png
